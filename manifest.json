@@ -1,1 +1,918 @@
-{"name": "sdc.health_dev", "measure_not_found": 33, "data": [{"name": "ncr_cttr_acs_2010_2019_post_hs_education.csv.xz", "path": "Population Health/Health Literacy/data/distribution/ncr_cttr_acs_2010_2019_post_hs_education.csv.xz", "md5": "63b3ba738957a70661cf34e74ec2600d", "size": 174188, "measure_info": [{"category": "Education", "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education", "full_name": "post_hs_education:perc_post_hs_edu", "measure": "perc_post_hs_edu", "type": "percent", "short_name": "Post-secondary education (percent)", "long_name": "Percentage with post-secondary education", "short_description": "Percentage of the population self-reported to have post-secondary education", "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.", "statement": "{value} of the population in {features.name} has a post-secondary education.", "equity_category": "Status", "sources": [{"name": "American Community Survey Table B15003", "date_accessed": 2021, "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"}]}, {"category": "Education", "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education", "full_name": "post_hs_education:num_post_hs_edu", "measure": "num_post_hs_edu", "type": "integer", "short_name": "Post-secondary education (count)", "long_name": "Number of people with post-secondary education", "short_description": "Number of people who self-reported to have post-secondary education", "long_description": "Number of people who self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.", "statement": "{value} people in {features.name} have a post-secondary education.", "equity_category": "Status", "sources": [{"name": "American Community Survey Table B15003", "date_accessed": 2021, "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"}]}]}, {"name": "va_hdcttr_acs_2015_2019_post_hs_education.csv.xz", "path": "Population Health/Health Literacy/data/distribution/va_hdcttr_acs_2015_2019_post_hs_education.csv.xz", "md5": "a60503290e9bfe9735c013b1710b408d", "size": 40804, "measure_info": [{"category": "Education", "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education", "full_name": "post_hs_education:perc_post_hs_edu", "measure": "perc_post_hs_edu", "type": "percent", "short_name": "Post-secondary education (percent)", "long_name": "Percentage with post-secondary education", "short_description": "Percentage of the population self-reported to have post-secondary education", "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.", "statement": "{value} of the population in {features.name} has a post-secondary education.", "equity_category": "Status", "sources": [{"name": "American Community Survey Table B15003", "date_accessed": 2021, "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"}]}, {"category": "Education", "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education", "full_name": "post_hs_education:num_post_hs_edu", "measure": "num_post_hs_edu", "type": "integer", "short_name": "Post-secondary education (count)", "long_name": "Number of people with post-secondary education", "short_description": "Number of people who self-reported to have post-secondary education", "long_description": "Number of people who self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.", "statement": "{value} people in {features.name} have a post-secondary education.", "equity_category": "Status", "sources": [{"name": "American Community Survey Table B15003", "date_accessed": 2021, "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"}]}]}, {"name": "va_hdcttr_acs_2010_2019_post_hs_education.csv.xz", "path": "Population Health/Health Literacy/data/distribution/va_hdcttr_acs_2010_2019_post_hs_education.csv.xz", "md5": "d1db104eee5d29ace9cd7a9b11bf7bc7", "size": 302764, "measure_info": [{"category": "Education", "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education", "full_name": "post_hs_education:perc_post_hs_edu", "measure": "perc_post_hs_edu", "type": "percent", "short_name": "Post-secondary education (percent)", "long_name": "Percentage with post-secondary education", "short_description": "Percentage of the population self-reported to have post-secondary education", "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.", "statement": "{value} of the population in {features.name} has a post-secondary education.", "equity_category": "Status", "sources": [{"name": "American Community Survey Table B15003", "date_accessed": 2021, "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"}]}, {"category": "Education", "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education", "full_name": "post_hs_education:num_post_hs_edu", "measure": "num_post_hs_edu", "type": "integer", "short_name": "Post-secondary education (count)", "long_name": "Number of people with post-secondary education", "short_description": "Number of people who self-reported to have post-secondary education", "long_description": "Number of people who self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.", "statement": "{value} people in {features.name} have a post-secondary education.", "equity_category": "Status", "sources": [{"name": "American Community Survey Table B15003", "date_accessed": 2021, "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"}]}]}, {"name": "va_hccttr_sdad_2019_health_literacy_estimates.csv.xz", "path": "Population Health/Health Literacy/data/distribution/va_hccttr_sdad_2019_health_literacy_estimates.csv.xz", "md5": "14a42ebf428eed059434b60fcc567e75", "size": 13800, "measure_info": [{"category": "Education", "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates", "full_name": "health_literacy_estimates:health_literacy_estimate", "measure": "health_literacy_estimate", "type": "index", "short_name": "Health literacy composite", "long_name": "Health literacy composite", "short_description": "Health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions", "long_description": "The health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy composite is based on variables of demographic characteristics, health status, and health care use.", "statement": "The health literacy composite for {features.name} is {value}.", "equity_category": "Status", "citations": ["savitz20", "liang17"], "sources": [{"name": "Medical Expenditure Panel Survey", "date_accessed": 2021, "url": "https://www.meps.ahrq.gov/mepsweb/"}, {"name": "American Community Survey", "date_accessed": 2021, "url": "https://www.census.gov/programs-surveys/acs.html"}]}]}, {"name": "va_hdcttrbg_webmd_2021_access_scores_dentists.csv", "path": "Health Care Services/Dentists/Service Catchment Scores/data/distribution/va_hdcttrbg_webmd_2021_access_scores_dentists.csv", "md5": "fcc87f2ee3d28d4333dc08a44b5e950e", "size": 6448264, "measure_info": [{"category": "Health", "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores", "full_name": "access_scores_dentists:dent_cnt", "measure": "dent_cnt", "type": "count", "short_name": "Dental care availability (count)", "long_name": "Dental care availability by count", "short_description": "Count of dentists based on provider locations", "long_description": "Count of dentists based on provider locations. Address data were collected from WebMD's online Physician Directory.", "statement": "There are {value} dentists in {features.name}.", "equity_category": "Availability", "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores", "full_name": "access_scores_dentists:dent_2sfca", "measure": "dent_2sfca", "type": "index", "short_name": "Dental care geographic availability", "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)", "short_description": "Index of dental care availability based on supply and demand of providers", "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.", "statement": "The dental care availability for {features.name} is {value}.", "equity_category": "Availability", "citations": ["lou04", "lou09", "lou03", "saxon20"], "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores", "full_name": "access_scores_dentists:dent_e2sfca", "measure": "dent_e2sfca", "type": "index", "short_name": "Dental care geographic availability", "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)", "short_description": "Index of dental care availability based on supply and demand of providers", "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.", "statement": "The dental care availability for {features.name} is {value}.", "equity_category": "Availability", "citations": ["lou04", "lou09", "lou03", "saxon20"], "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}]}, {"name": "va_hdcttrbg_hifld_2021_access_scores_ems.csv", "path": "Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_ems.csv", "md5": "ddc859d53d6918476edea47202d81bd7", "size": 6416896, "measure_info": [{"category": "Health", "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems", "full_name": "access_scores_ems:ems_near_10_median", "measure": "ems_near_10_median", "type": "drive time", "short_name": "Emergency medical services availability (drive time)", "long_name": "Emergency medical services availability by median drive time to the ten closest facilities in minutes", "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities", "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).", "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.", "equity_category": "Availability", "sources": [{"name": "Homeland Infrastructure Foundation-Level Data (HIFLD)", "date_accessed": 2021, "url": "https://hifld-geoplatform.opendata.arcgis.com/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores", "full_name": "access_scores_ems:ems_cnt", "measure": "ems_cnt", "type": "count", "short_name": "Emergency medical services availability (count)", "long_name": "Availability of emergency medical services by count", "short_description": "Count of emergency medical services facilities based on facility locations", "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.", "statement": "There are {value} emergency medical services facilities in {features.name}.", "equity_category": "Availability", "sources": [{"name": "Homeland Infrastructure Foundation-Level Data (HIFLD)", "date_accessed": 2021, "url": "https://hifld-geoplatform.opendata.arcgis.com/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores", "full_name": "access_scores_ems:ems_3sfca", "measure": "ems_3sfca", "type": "index", "short_name": "Emergency medical services geographic availability", "long_name": "Emergency medical services geographic availability (3-step floating catchment areas)", "short_description": "Index of emergency medical services availability based on supply and demand of facilities", "long_description": "Emergency medical services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).", "statement": "The emergency medical services availability for {features.name} is {value}.", "equity_category": "Availability", "citations": ["lou04", "lou09", "lou03", "saxon20"], "sources": [{"name": "Homeland Infrastructure Foundation-Level Data (HIFLD)", "date_accessed": 2021, "url": "https://hifld-geoplatform.opendata.arcgis.com/"}]}]}, {"name": "va_hdcttrbg_webmd_2021_access_scores_obgyn.csv", "path": "Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/va_hdcttrbg_webmd_2021_access_scores_obgyn.csv", "md5": "a34f69ec2ae6a82d3bb08a42f2a67f2d", "size": 6478514, "measure_info": [{"category": "Health", "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores", "full_name": "access_scores_obgyn:obgyn_cnt", "measure": "obgyn_cnt", "type": "count", "short_name": "OBGYN care availability (count)", "long_name": "OBGYN care availability by count", "short_description": "Count of OBGYNs based on provider locations", "long_description": "Count of OBGYN care providers based on provider locations. Address data were collected from WebMD's online Physician Directory.", "statement": "There are {value} OBGYNs in {features.name}.", "equity_category": "Availability", "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores", "full_name": "access_scores_obgyn:obgyn_2sfca", "measure": "obgyn_2sfca", "type": "index", "short_name": "OBGYN care geographic availability", "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)", "short_description": "Index of OBGYN care availability based on supply and demand of providers", "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.", "statement": "The OBGYN availability for {features.name} is {value}.", "equity_category": "Availability", "citations": ["lou04", "lou09", "lou03", "saxon20"], "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores", "full_name": "access_scores_obgyn:obgyn_e2sfca", "measure": "obgyn_e2sfca", "type": "index", "short_name": "OBGYN care geographic availability", "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)", "short_description": "Index of OBGYN care availability based on supply and demand of providers", "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.", "statement": "The OBGYN availability for {features.name} is {value}.", "equity_category": "Availability", "citations": ["lou04", "lou09", "lou03", "saxon20"], "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores", "full_name": "access_scores_obgyn:obgyn_3sfca", "measure": "obgyn_3sfca", "type": "index", "short_name": "OBGYN care geographic availability", "long_name": "OBGYN care geographic availability (3-step floating catchment areas)", "short_description": "Index of OBGYN care availability based on supply and demand of providers", "long_description": "OBGYN care availability based on 3-step floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.", "statement": "The OBGYN availability for {features.name} is {value}.", "equity_category": "Availability", "citations": ["lou04", "lou09", "lou03", "saxon20"], "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}]}, {"name": "va_hdcttrbg_webmd_2021_access_scores_pediatric.csv", "path": "Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/va_hdcttrbg_webmd_2021_access_scores_pediatric.csv", "md5": "85b393072f2dffb4b807b616d9a9dbfe", "size": 6364601, "measure_info": [{"category": "Health", "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores", "full_name": "access_scores_pediatric:ped_cnt", "measure": "ped_cnt", "type": "count", "short_name": "Pediatric care availability (count)", "long_name": "Pediatric care availability by count", "short_description": "Count of pediatricians based on provider locations", "long_description": "Count of pediatricians based on provider locations. Address data were collected from WebMD's online Physician Directory.", "statement": "There are {value} pediatricians in {features.name}.", "equity_category": "Availability", "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores", "full_name": "access_scores_pediatric:ped_3sfca", "measure": "ped_3sfca", "type": "index", "short_name": "Pediatric care geographic availability", "long_name": "Pediatric care geographic availability (3-step floating catchment areas)", "short_description": "Index of pediatric care physician availability based on supply and demand of providers", "long_description": "Pediatric care availability based on 3-step floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data were collected from WebMD's online Physician Directory.", "statement": "The pediatric care availability for {features.name} is {value}.", "equity_category": "Availability", "citations": ["lou04", "lou09", "lou03", "saxon20"], "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}]}, {"name": "va_hdcttrbg_webmd_2021_access_scores_primcare.csv", "path": "Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/va_hdcttrbg_webmd_2021_access_scores_primcare.csv", "md5": "0385eb455a5bb23292729818970a5f4c", "size": 6636909, "measure_info": [{"category": "Health", "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_primcare", "full_name": "access_scores_primcare:primcare_cnt", "measure": "prim_cnt", "type": "count", "short_name": "Primary care availability (count)", "long_name": "Primary care availability by count", "short_description": "Count of primary care physicians based on provider locations", "long_description": "Count of primary care physicians based on provider locations. Address data were collected from WebMD's online Physician Directory.", "statement": "There are {value} primary care physicians in {features.name}.", "equity_category": "Availability", "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores", "full_name": "access_scores_primcare:primcare_2sfca", "measure": "primcare_2sfca", "type": "index", "short_name": "Primary care geographic availability", "long_name": "Primary care geographic availability (2-step enhanced floating catchment areas)", "short_description": "Index of primary care physician availability based on supply and demand of providers", "long_description": "Primary care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.", "statement": "The primary care availability for {features.name} is {value}.", "equity_category": "Availability", "citations": ["lou04", "lou09", "lou03", "saxon20"], "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores", "full_name": "access_scores_primcare:primcare_e2sfca", "measure": "primcare_e2sfca", "type": "index", "short_name": "Primary care geographic availability", "long_name": "Primary care geographic availability (2-step enhanced floating catchment areas)", "short_description": "Index of primary care physician availability based on supply and demand of providers", "long_description": "Primary care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.", "statement": "The primary care availability for {features.name} is {value}.", "equity_category": "Availability", "citations": ["lou04", "lou09", "lou03", "saxon20"], "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores", "full_name": "access_scores_primcare:primcare_3sfca", "measure": "primcare_3sfca", "type": "index", "short_name": "Primary care geographic availability", "long_name": "Primary care geographic availability (3-step floating catchment areas)", "short_description": "Index of primary care physician availability based on supply and demand of providers", "long_description": "Primary care availability based on 3-step floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.", "statement": "The primary care availability for {features.name} is {value}.", "equity_category": "Availability", "citations": ["lou04", "lou09", "lou03", "saxon20"], "sources": [{"name": "WebMD Physician Directory", "date_accessed": 2021, "url": "https://doctor.webmd.com/"}]}]}, {"name": "va_hdcttrbg_samhsa_2021_access_scores_substance.csv", "path": "Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbg_samhsa_2021_access_scores_substance.csv", "md5": "d598a00734a5fb6e447cf6d20d20688f", "size": 6434437, "measure_info": [{"category": "Health", "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores", "full_name": "access_scores_substance:subs_cnt", "measure": "subs_cnt", "type": "count", "short_name": "Substance use/behavioral health availability (count)", "long_name": "Availability of substance use/behavioral health by count", "short_description": "Count of substance use/behavioral health facilities based on facility locations", "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.", "statement": "There are {value} substance use facilities in {features.name}.", "equity_category": "Availability", "sources": [{"name": "Substance Abuse and Mental Health Services Administration (SAMHSA)", "date_accessed": 2021, "url": "https://www.samhsa.gov/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores", "full_name": "access_scores_substance:subs_3sfca", "measure": "subs_3sfca", "type": "index", "short_name": "Substance use/behavioral health services geographic availability", "long_name": "Substance use/behavioral health services geographic availability (3-step floating catchment areas)", "short_description": "Index of substance use/behavioral health services availability based on supply and demand of facilities", "long_description": "Substance use/behavioral health services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).", "statement": "The substance use/behavioral health services availability for {features.name} is {value}.", "equity_category": "Availability", "citations": ["lou04", "lou09", "lou03", "saxon20"], "sources": [{"name": "Substance Abuse and Mental Health Services Administration (SAMHSA)", "date_accessed": 2021, "url": "https://www.samhsa.gov/"}]}]}, {"name": "va_hdcttrbg_hifld_2021_access_scores_hospitals.csv", "path": "Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_hospitals.csv", "md5": "11d003c74ce12796b5431f02cfb9276c", "size": 6478053, "measure_info": "No match found"}, {"name": "va_hdcttrbg_hifld_2021_access_scores_hospitals_beds.csv", "path": "Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_hospitals_beds.csv", "md5": "a1be520fb993483f2588c745a52744b6", "size": 6450624, "measure_info": "No match found"}, {"name": "va_hdcttrbg_hifld_2021_access_scores_urgent.csv", "path": "Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_urgent.csv", "md5": "38bce4517eb492792351090678be2bf3", "size": 6508432, "measure_info": "No match found"}, {"name": "va_hdcttrbg_samhsa_2021_access_scores_mental.csv", "path": "Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbg_samhsa_2021_access_scores_mental.csv", "md5": "fce82b79a1f6bd44d5c31606f33c07a5", "size": 6541202, "measure_info": [{"category": "Health", "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores", "full_name": "access_scores_mental:mental_cnt", "measure": "mental_cnt", "type": "count", "short_name": "Mental health services availability (count)", "long_name": "Availability of mental health services by count", "short_description": "Count of mental health facilities based on facility locations", "long_description": "Count of mental health facilities based on facility locations. Location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.", "statement": "There are {value} mental health facilities in {features.name}.", "equity_category": "Availability", "sources": [{"name": "Substance Abuse and Mental Health Services Administration (SAMHSA)", "date_accessed": 2021, "url": "https://www.samhsa.gov/"}]}, {"category": "Health", "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores", "full_name": "access_scores_mental:mental_3sfca", "measure": "mental_3sfca", "type": "index", "short_name": "Mental health services geographic availability", "long_name": "Mental health services geographic availability (3-step  floating catchment areas)", "short_description": "Index of mental health services accessibility based on supply and demand of facilities", "long_description": "Mental health services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).", "statement": "The mental health services availability for {features.name} is {value}.", "equity_category": "Availability", "citations": ["lou04", "lou09", "lou03", "saxon20"], "sources": [{"name": "Substance Abuse and Mental Health Services Administration (SAMHSA)", "date_accessed": 2021, "url": "https://www.samhsa.gov/"}]}]}], "count": 14, "utc_audited": "2022-09-08 01:28:28"}
+{
+  "name": "sdc.health_dev",
+  "measure_not_found": 3,
+  "count": 14,
+  "utc_audited": "2022-09-13 14:57:13",
+  "data": [
+    {
+      "name": "ncr_cttr_acs_2010_2019_post_hs_education.csv.xz",
+      "path": "Population Health/Health Literacy/data/distribution/ncr_cttr_acs_2010_2019_post_hs_education.csv.xz",
+      "md5": "63b3ba738957a70661cf34e74ec2600d",
+      "size": 174188,
+      "measure_info": [
+        {
+          "category": "Education",
+          "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
+          "full_name": "post_hs_education:perc_post_hs_edu",
+          "measure": "perc_post_hs_edu",
+          "type": "percent",
+          "short_name": "Post-secondary education (percent)",
+          "long_name": "Percentage with post-secondary education",
+          "short_description": "Percentage of the population self-reported to have post-secondary education",
+          "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+          "statement": "{value} of the population in {features.name} has a post-secondary education.",
+          "equity_category": "Status",
+          "sources": [
+            {
+              "name": "American Community Survey Table B15003",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
+            }
+          ]
+        },
+        {
+          "category": "Education",
+          "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
+          "full_name": "post_hs_education:num_post_hs_edu",
+          "measure": "num_post_hs_edu",
+          "type": "integer",
+          "short_name": "Post-secondary education (count)",
+          "long_name": "Number of people with post-secondary education",
+          "short_description": "Number of people who self-reported to have post-secondary education",
+          "long_description": "Number of people who self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+          "statement": "{value} people in {features.name} have a post-secondary education.",
+          "equity_category": "Status",
+          "sources": [
+            {
+              "name": "American Community Survey Table B15003",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "va_hdcttr_acs_2015_2019_post_hs_education.csv.xz",
+      "path": "Population Health/Health Literacy/data/distribution/va_hdcttr_acs_2015_2019_post_hs_education.csv.xz",
+      "md5": "a60503290e9bfe9735c013b1710b408d",
+      "size": 40804,
+      "measure_info": [
+        {
+          "category": "Education",
+          "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
+          "full_name": "post_hs_education:perc_post_hs_edu",
+          "measure": "perc_post_hs_edu",
+          "type": "percent",
+          "short_name": "Post-secondary education (percent)",
+          "long_name": "Percentage with post-secondary education",
+          "short_description": "Percentage of the population self-reported to have post-secondary education",
+          "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+          "statement": "{value} of the population in {features.name} has a post-secondary education.",
+          "equity_category": "Status",
+          "sources": [
+            {
+              "name": "American Community Survey Table B15003",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
+            }
+          ]
+        },
+        {
+          "category": "Education",
+          "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
+          "full_name": "post_hs_education:num_post_hs_edu",
+          "measure": "num_post_hs_edu",
+          "type": "integer",
+          "short_name": "Post-secondary education (count)",
+          "long_name": "Number of people with post-secondary education",
+          "short_description": "Number of people who self-reported to have post-secondary education",
+          "long_description": "Number of people who self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+          "statement": "{value} people in {features.name} have a post-secondary education.",
+          "equity_category": "Status",
+          "sources": [
+            {
+              "name": "American Community Survey Table B15003",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "va_hdcttr_acs_2010_2019_post_hs_education.csv.xz",
+      "path": "Population Health/Health Literacy/data/distribution/va_hdcttr_acs_2010_2019_post_hs_education.csv.xz",
+      "md5": "d1db104eee5d29ace9cd7a9b11bf7bc7",
+      "size": 302764,
+      "measure_info": [
+        {
+          "category": "Education",
+          "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
+          "full_name": "post_hs_education:perc_post_hs_edu",
+          "measure": "perc_post_hs_edu",
+          "type": "percent",
+          "short_name": "Post-secondary education (percent)",
+          "long_name": "Percentage with post-secondary education",
+          "short_description": "Percentage of the population self-reported to have post-secondary education",
+          "long_description": "Percentage of the population self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+          "statement": "{value} of the population in {features.name} has a post-secondary education.",
+          "equity_category": "Status",
+          "sources": [
+            {
+              "name": "American Community Survey Table B15003",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
+            }
+          ]
+        },
+        {
+          "category": "Education",
+          "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
+          "full_name": "post_hs_education:num_post_hs_edu",
+          "measure": "num_post_hs_edu",
+          "type": "integer",
+          "short_name": "Post-secondary education (count)",
+          "long_name": "Number of people with post-secondary education",
+          "short_description": "Number of people who self-reported to have post-secondary education",
+          "long_description": "Number of people who self-reported to have post-secondary education. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
+          "statement": "{value} people in {features.name} have a post-secondary education.",
+          "equity_category": "Status",
+          "sources": [
+            {
+              "name": "American Community Survey Table B15003",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "va_hccttr_sdad_2019_health_literacy_estimates.csv.xz",
+      "path": "Population Health/Health Literacy/data/distribution/va_hccttr_sdad_2019_health_literacy_estimates.csv.xz",
+      "md5": "14a42ebf428eed059434b60fcc567e75",
+      "size": 13800,
+      "measure_info": [
+        {
+          "category": "Education",
+          "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
+          "full_name": "health_literacy_estimates:health_literacy_estimate",
+          "measure": "health_literacy_estimate",
+          "type": "index",
+          "short_name": "Health literacy composite",
+          "long_name": "Health literacy composite",
+          "short_description": "Health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
+          "long_description": "The health literacy composite captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy composite is based on variables of demographic characteristics, health status, and health care use.",
+          "statement": "The health literacy composite for {features.name} is {value}.",
+          "equity_category": "Status",
+          "citations": [
+            "savitz20",
+            "liang17"
+          ],
+          "sources": [
+            {
+              "name": "Medical Expenditure Panel Survey",
+              "date_accessed": 2021,
+              "url": "https://www.meps.ahrq.gov/mepsweb/"
+            },
+            {
+              "name": "American Community Survey",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "va_hdcttrbg_webmd_2021_access_scores_dentists.csv",
+      "path": "Health Care Services/Dentists/Service Catchment Scores/data/distribution/va_hdcttrbg_webmd_2021_access_scores_dentists.csv",
+      "md5": "fcc87f2ee3d28d4333dc08a44b5e950e",
+      "size": 6448264,
+      "measure_info": [
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
+          "full_name": "access_scores_dentists:dent_cnt",
+          "measure": "dent_cnt",
+          "type": "count",
+          "short_name": "Dental care availability (count)",
+          "long_name": "Dental care availability by count",
+          "short_description": "Count of dentists based on provider locations",
+          "long_description": "Count of dentists based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+          "statement": "There are {value} dentists in {features.name}.",
+          "equity_category": "Availability",
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
+          "full_name": "access_scores_dentists:dent_2sfca",
+          "measure": "dent_2sfca",
+          "type": "index",
+          "short_name": "Dental care geographic availability",
+          "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
+          "short_description": "Index of dental care availability based on supply and demand of providers",
+          "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
+          "statement": "The dental care availability for {features.name} is {value}.",
+          "equity_category": "Availability",
+          "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+          ],
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_dentists_access_scores",
+          "full_name": "access_scores_dentists:dent_e2sfca",
+          "measure": "dent_e2sfca",
+          "type": "index",
+          "short_name": "Dental care geographic availability",
+          "long_name": "Dental care geographic availability (2 step-enhanced floating catchment areas)",
+          "short_description": "Index of dental care availability based on supply and demand of providers",
+          "long_description": "Dental care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data were collected from WebMD's online Physician Directory.",
+          "statement": "The dental care availability for {features.name} is {value}.",
+          "equity_category": "Availability",
+          "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+          ],
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "va_hdcttrbg_hifld_2021_access_scores_ems.csv",
+      "path": "Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_ems.csv",
+      "md5": "ddc859d53d6918476edea47202d81bd7",
+      "size": 6416896,
+      "measure_info": [
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_ems",
+          "full_name": "access_scores_ems:ems_near_10_median",
+          "measure": "ems_near_10_median",
+          "type": "drive time",
+          "short_name": "Emergency medical services availability (drive time)",
+          "long_name": "Emergency medical services availability by median drive time to the ten closest facilities in minutes",
+          "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+          "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+          "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
+          "equity_category": "Availability",
+          "sources": [
+            {
+              "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+              "date_accessed": 2021,
+              "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+          "full_name": "access_scores_ems:ems_cnt",
+          "measure": "ems_cnt",
+          "type": "count",
+          "short_name": "Emergency medical services availability (count)",
+          "long_name": "Availability of emergency medical services by count",
+          "short_description": "Count of emergency medical services facilities based on facility locations",
+          "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+          "statement": "There are {value} emergency medical services facilities in {features.name}.",
+          "equity_category": "Availability",
+          "sources": [
+            {
+              "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+              "date_accessed": 2021,
+              "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+          "full_name": "access_scores_ems:ems_3sfca",
+          "measure": "ems_3sfca",
+          "type": "index",
+          "short_name": "Emergency medical services geographic availability",
+          "long_name": "Emergency medical services geographic availability (3-step floating catchment areas)",
+          "short_description": "Index of emergency medical services availability based on supply and demand of facilities",
+          "long_description": "Emergency medical services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+          "statement": "The emergency medical services availability for {features.name} is {value}.",
+          "equity_category": "Availability",
+          "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+          ],
+          "sources": [
+            {
+              "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+              "date_accessed": 2021,
+              "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "va_hdcttrbg_webmd_2021_access_scores_obgyn.csv",
+      "path": "Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/va_hdcttrbg_webmd_2021_access_scores_obgyn.csv",
+      "md5": "a34f69ec2ae6a82d3bb08a42f2a67f2d",
+      "size": 6478514,
+      "measure_info": [
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
+          "full_name": "access_scores_obgyn:obgyn_cnt",
+          "measure": "obgyn_cnt",
+          "type": "count",
+          "short_name": "OBGYN care availability (count)",
+          "long_name": "OBGYN care availability by count",
+          "short_description": "Count of OBGYNs based on provider locations",
+          "long_description": "Count of OBGYN care providers based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+          "statement": "There are {value} OBGYNs in {features.name}.",
+          "equity_category": "Availability",
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+          "full_name": "access_scores_obgyn:obgyn_2sfca",
+          "measure": "obgyn_2sfca",
+          "type": "index",
+          "short_name": "OBGYN care geographic availability",
+          "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
+          "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+          "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+          "statement": "The OBGYN availability for {features.name} is {value}.",
+          "equity_category": "Availability",
+          "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+          ],
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+          "full_name": "access_scores_obgyn:obgyn_e2sfca",
+          "measure": "obgyn_e2sfca",
+          "type": "index",
+          "short_name": "OBGYN care geographic availability",
+          "long_name": "OBGYN care geographic availability (2-step enhanced floating catchment areas)",
+          "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+          "long_description": "OBGYN care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+          "statement": "The OBGYN availability for {features.name} is {value}.",
+          "equity_category": "Availability",
+          "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+          ],
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_obgyns_access_scores",
+          "full_name": "access_scores_obgyn:obgyn_3sfca",
+          "measure": "obgyn_3sfca",
+          "type": "index",
+          "short_name": "OBGYN care geographic availability",
+          "long_name": "OBGYN care geographic availability (3-step floating catchment areas)",
+          "short_description": "Index of OBGYN care availability based on supply and demand of providers",
+          "long_description": "OBGYN care availability based on 3-step floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data were collected from WebMD's online physician directory.",
+          "statement": "The OBGYN availability for {features.name} is {value}.",
+          "equity_category": "Availability",
+          "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+          ],
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "va_hdcttrbg_webmd_2021_access_scores_pediatric.csv",
+      "path": "Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/va_hdcttrbg_webmd_2021_access_scores_pediatric.csv",
+      "md5": "85b393072f2dffb4b807b616d9a9dbfe",
+      "size": 6364601,
+      "measure_info": [
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
+          "full_name": "access_scores_pediatric:ped_cnt",
+          "measure": "ped_cnt",
+          "type": "count",
+          "short_name": "Pediatric care availability (count)",
+          "long_name": "Pediatric care availability by count",
+          "short_description": "Count of pediatricians based on provider locations",
+          "long_description": "Count of pediatricians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+          "statement": "There are {value} pediatricians in {features.name}.",
+          "equity_category": "Availability",
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
+          "full_name": "access_scores_pediatric:ped_3sfca",
+          "measure": "ped_3sfca",
+          "type": "index",
+          "short_name": "Pediatric care geographic availability",
+          "long_name": "Pediatric care geographic availability (3-step floating catchment areas)",
+          "short_description": "Index of pediatric care physician availability based on supply and demand of providers",
+          "long_description": "Pediatric care availability based on 3-step floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data were collected from WebMD's online Physician Directory.",
+          "statement": "The pediatric care availability for {features.name} is {value}.",
+          "equity_category": "Availability",
+          "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+          ],
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "va_hdcttrbg_webmd_2021_access_scores_primcare.csv",
+      "path": "Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/va_hdcttrbg_webmd_2021_access_scores_primcare.csv",
+      "md5": "0385eb455a5bb23292729818970a5f4c",
+      "size": 6636909,
+      "measure_info": [
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_access_scores_primcare",
+          "full_name": "access_scores_primcare:primcare_cnt",
+          "measure": "prim_cnt",
+          "type": "count",
+          "short_name": "Primary care availability (count)",
+          "long_name": "Primary care availability by count",
+          "short_description": "Count of primary care physicians based on provider locations",
+          "long_description": "Count of primary care physicians based on provider locations. Address data were collected from WebMD's online Physician Directory.",
+          "statement": "There are {value} primary care physicians in {features.name}.",
+          "equity_category": "Availability",
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
+          "full_name": "access_scores_primcare:primcare_2sfca",
+          "measure": "primcare_2sfca",
+          "type": "index",
+          "short_name": "Primary care geographic availability",
+          "long_name": "Primary care geographic availability (2-step enhanced floating catchment areas)",
+          "short_description": "Index of primary care physician availability based on supply and demand of providers",
+          "long_description": "Primary care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
+          "statement": "The primary care availability for {features.name} is {value}.",
+          "equity_category": "Availability",
+          "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+          ],
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
+          "full_name": "access_scores_primcare:primcare_e2sfca",
+          "measure": "primcare_e2sfca",
+          "type": "index",
+          "short_name": "Primary care geographic availability",
+          "long_name": "Primary care geographic availability (2-step enhanced floating catchment areas)",
+          "short_description": "Index of primary care physician availability based on supply and demand of providers",
+          "long_description": "Primary care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
+          "statement": "The primary care availability for {features.name} is {value}.",
+          "equity_category": "Availability",
+          "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+          ],
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.dmv_bg_sdad_2021_primcare_access_scores",
+          "full_name": "access_scores_primcare:primcare_3sfca",
+          "measure": "primcare_3sfca",
+          "type": "index",
+          "short_name": "Primary care geographic availability",
+          "long_name": "Primary care geographic availability (3-step floating catchment areas)",
+          "short_description": "Index of primary care physician availability based on supply and demand of providers",
+          "long_description": "Primary care availability based on 3-step floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data were collected from WebMD's online Physician Directory.",
+          "statement": "The primary care availability for {features.name} is {value}.",
+          "equity_category": "Availability",
+          "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+          ],
+          "sources": [
+            {
+              "name": "WebMD Physician Directory",
+              "date_accessed": 2021,
+              "url": "https://doctor.webmd.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "va_hdcttrbg_samhsa_2021_access_scores_substance.csv",
+      "path": "Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbg_samhsa_2021_access_scores_substance.csv",
+      "md5": "d598a00734a5fb6e447cf6d20d20688f",
+      "size": 6434437,
+      "measure_info": [
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+          "full_name": "access_scores_substance:subs_cnt",
+          "measure": "subs_cnt",
+          "type": "count",
+          "short_name": "Substance use/behavioral health availability (count)",
+          "long_name": "Availability of substance use/behavioral health by count",
+          "short_description": "Count of substance use/behavioral health facilities based on facility locations",
+          "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+          "statement": "There are {value} substance use facilities in {features.name}.",
+          "equity_category": "Availability",
+          "sources": [
+            {
+              "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+              "date_accessed": 2021,
+              "url": "https://www.samhsa.gov/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+          "full_name": "access_scores_substance:subs_3sfca",
+          "measure": "subs_3sfca",
+          "type": "index",
+          "short_name": "Substance use/behavioral health services geographic availability",
+          "long_name": "Substance use/behavioral health services geographic availability (3-step floating catchment areas)",
+          "short_description": "Index of substance use/behavioral health services availability based on supply and demand of facilities",
+          "long_description": "Substance use/behavioral health services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+          "statement": "The substance use/behavioral health services availability for {features.name} is {value}.",
+          "equity_category": "Availability",
+          "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+          ],
+          "sources": [
+            {
+              "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+              "date_accessed": 2021,
+              "url": "https://www.samhsa.gov/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "va_hdcttrbg_hifld_2021_access_scores_hospitals.csv",
+      "path": "Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_hospitals.csv",
+      "md5": "11d003c74ce12796b5431f02cfb9276c",
+      "size": 6478053
+    },
+    {
+      "name": "va_hdcttrbg_hifld_2021_access_scores_hospitals_beds.csv",
+      "path": "Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_hospitals_beds.csv",
+      "md5": "a1be520fb993483f2588c745a52744b6",
+      "size": 6450624
+    },
+    {
+      "name": "va_hdcttrbg_hifld_2021_access_scores_urgent.csv",
+      "path": "Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_urgent.csv",
+      "md5": "38bce4517eb492792351090678be2bf3",
+      "size": 6508432
+    },
+    {
+      "name": "va_hdcttrbg_samhsa_2021_access_scores_mental.csv",
+      "path": "Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbg_samhsa_2021_access_scores_mental.csv",
+      "md5": "fce82b79a1f6bd44d5c31606f33c07a5",
+      "size": 6541202,
+      "measure_info": [
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+          "full_name": "access_scores_mental:mental_cnt",
+          "measure": "mental_cnt",
+          "type": "count",
+          "short_name": "Mental health services availability (count)",
+          "long_name": "Availability of mental health services by count",
+          "short_description": "Count of mental health facilities based on facility locations",
+          "long_description": "Count of mental health facilities based on facility locations. Location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+          "statement": "There are {value} mental health facilities in {features.name}.",
+          "equity_category": "Availability",
+          "sources": [
+            {
+              "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+              "date_accessed": 2021,
+              "url": "https://www.samhsa.gov/"
+            }
+          ]
+        },
+        {
+          "category": "Health",
+          "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+          "full_name": "access_scores_mental:mental_3sfca",
+          "measure": "mental_3sfca",
+          "type": "index",
+          "short_name": "Mental health services geographic availability",
+          "long_name": "Mental health services geographic availability (3-step  floating catchment areas)",
+          "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
+          "long_description": "Mental health services availability based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+          "statement": "The mental health services availability for {features.name} is {value}.",
+          "equity_category": "Availability",
+          "citations": [
+            "lou04",
+            "lou09",
+            "lou03",
+            "saxon20"
+          ],
+          "sources": [
+            {
+              "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+              "date_accessed": 2021,
+              "url": "https://www.samhsa.gov/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_references": {
+    "liang17": {
+      "id": "liang17",
+      "author": [
+        {
+          "given": "Lan",
+          "family": "Liang"
+        },
+        {
+          "given": "Cindy",
+          "family": "Branch"
+        }
+      ],
+      "year": 2017,
+      "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+      "journal": "Health Literacy Research and Practice",
+      "volume": "1",
+      "number": 4,
+      "page": "e216-e230",
+      "doi": "10.3928/24748307-20170929-01"
+    },
+    "savitz20": {
+      "id": "savitz20",
+      "author": [
+        {
+          "given": "Samuel",
+          "family": "Savitz"
+        },
+        {
+          "given": "Stacy",
+          "family": "Bailey"
+        },
+        {
+          "given": "Stacie",
+          "family": "Dusetzina"
+        },
+        {
+          "given": "W.",
+          "family": "Schuyler Jones"
+        },
+        {
+          "given": "Justin",
+          "family": "Trogdon"
+        },
+        {
+          "given": "Sally",
+          "family": "Stearns"
+        }
+      ],
+      "year": 2020,
+      "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+      "journal": "Journal of Evaluation in Clinical Practice",
+      "volume": "26",
+      "number": 6,
+      "page": "1711-1721",
+      "doi": "10.1111/jep.13341"
+    },
+    "lou04": {
+      "id": "lou04",
+      "author": [
+        {
+          "given": "Wei",
+          "family": "Lou"
+        }
+      ],
+      "year": 2004,
+      "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+      "journal": "Health & Place",
+      "volume": "10",
+      "number": 1,
+      "page": "1-11",
+      "doi": "10.1016/S1353-8292(02)00067-9"
+    },
+    "lou09": {
+      "id": "lou09",
+      "author": [
+        {
+          "given": "Wei",
+          "family": "Lou"
+        },
+        {
+          "given": "Yi",
+          "family": "Qi"
+        }
+      ],
+      "year": 2009,
+      "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+      "journal": "Health & Place",
+      "volume": "15",
+      "number": 4,
+      "page": "1100-1107",
+      "doi": "10.1016/j.healthplace.2009.06.002"
+    },
+    "lou03": {
+      "id": "lou03",
+      "author": [
+        {
+          "given": "Wei",
+          "family": "Lou"
+        },
+        {
+          "given": "Fahui",
+          "family": "Wang"
+        }
+      ],
+      "year": 2003,
+      "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+      "journal": "Environment and Planning B: Planning and Design",
+      "volume": "30",
+      "number": 6,
+      "page": "865-884",
+      "doi": "10.1068/b29120"
+    },
+    "saxon20": {
+      "id": "saxon20",
+      "author": [
+        {
+          "given": "James",
+          "family": "Saxon"
+        },
+        {
+          "given": "Julia",
+          "family": "Koschinsky"
+        },
+        {
+          "given": "Karina",
+          "family": "Acosta"
+        },
+        {
+          "given": "Vidal",
+          "family": "Anguiano"
+        },
+        {
+          "given": "Luc",
+          "family": "Anselin"
+        },
+        {
+          "given": "Sergio",
+          "family": "Rey"
+        }
+      ],
+      "year": 2020,
+      "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+      "journal": "University of Chicago: Center for Spatial Data Science",
+      "volume": "Preprint",
+      "doi": "10.13140/RG.2.2.12396.28807"
+    },
+    "wan12": {
+      "id": "wan12",
+      "author": [
+        {
+          "given": "Neng",
+          "family": "Wan"
+        },
+        {
+          "given": "Bin",
+          "family": "Zou"
+        },
+        {
+          "given": "Troy",
+          "family": "Sternberg"
+        }
+      ],
+      "year": 2012,
+      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+      "journal": "International Journal of Geographical Information Science",
+      "volume": "26",
+      "page": "1073\u20131089",
+      "doi": "10.1080/13658816.2011.624987"
+    },
+    "bii21": {
+      "id": "bii21",
+      "author": [
+        {
+          "family": "Biocomplexity Institute and Initiative"
+        }
+      ],
+      "year": 2021,
+      "title": "catchment: Calculate spatial access and availability metrics",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/catchment"
+    }
+  }
+}
