@@ -1,8 +1,8 @@
 {
   "name": "sdc.health_dev",
-  "measure_not_found": 3,
-  "count": 14,
-  "utc_audited": "2022-09-13 14:57:13",
+  "measure_not_found": 4,
+  "count": 15,
+  "utc_audited": "2022-09-13 16:07:34",
   "data": [
     {
       "name": "ncr_cttr_acs_2010_2019_post_hs_education.csv.xz",
@@ -604,6 +604,12 @@
           ]
         }
       ]
+    },
+    {
+      "name": "va_ct_schev_2016_2019_health_degrees_awarded.csv",
+      "path": "Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ct_schev_2016_2019_health_degrees_awarded.csv",
+      "md5": "c2c7e49855c387e5b0532653999b2ec0",
+      "size": 178504
     },
     {
       "name": "va_hdcttrbg_samhsa_2021_access_scores_substance.csv",
