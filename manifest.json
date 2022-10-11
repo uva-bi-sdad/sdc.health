@@ -1,32 +1,13 @@
 {
   "name": "sdc.health_dev",
-  "measure_not_found": 4,
-  "count": 73,
-  "utc_audited": "2022-09-26 17:36:06",
+  "count": 22,
+  "utc_audited": "2022-10-11 13:23:51",
   "data": [
-    {
-      "name": "temp",
-      "path": "Population Health/System Usage and Insurance/Preventable Hospitalizations/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
     {
       "name": "va_ct_chr_2015_2021_preventable_hospitalizations.csv",
       "path": "Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/va_ct_chr_2015_2021_preventable_hospitalizations.csv",
       "md5": "091cca8e007c774c54a597b56fd1190c",
       "size": 86790
-    },
-    {
-      "name": "temp",
-      "path": "Population Health/System Usage and Insurance/Preventable Hospitalizations/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Population Health/System Usage and Insurance/Without Health Insurance/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
     },
     {
       "name": "va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz",
@@ -39,18 +20,6 @@
       "path": "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz",
       "md5": "c2600bbf5e0a297433c68e559ac02ff7",
       "size": 397856
-    },
-    {
-      "name": "temp",
-      "path": "Population Health/System Usage and Insurance/Without Health Insurance/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Population Health/Health Literacy/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
     },
     {
       "name": "va_hdcttr_acs_2010_2019_post_hs_education.csv.xz",
@@ -149,12 +118,6 @@
       ]
     },
     {
-      "name": "measure_info.json",
-      "path": "Population Health/Health Literacy/data/distribution/measure_info.json",
-      "md5": "853758017c02e61af559f3653007661f",
-      "size": 4857
-    },
-    {
       "name": "ncr_cttr_acs_2010_2019_post_hs_education.csv.xz",
       "path": "Population Health/Health Literacy/data/distribution/ncr_cttr_acs_2010_2019_post_hs_education.csv.xz",
       "md5": "63b3ba738957a70661cf34e74ec2600d",
@@ -240,18 +203,6 @@
       ]
     },
     {
-      "name": "temp",
-      "path": "Population Health/Health Literacy/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Population Health/Mental Health/Mental and Physical Healthy Days/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
       "name": "dc_health_behavior_diet.ncr_trct_sdad_2015_2019_brfss_sae.csv.xz",
       "path": "Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/dc_health_behavior_diet.ncr_trct_sdad_2015_2019_brfss_sae.csv.xz",
       "md5": "6c961ff4e6f5e8ea32d43f1e94b509b2",
@@ -264,34 +215,10 @@
       "size": 171304
     },
     {
-      "name": "temp",
-      "path": "Population Health/Mental Health/Mental and Physical Healthy Days/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Population Health/Reproductive Health/Prenatal Care Adequacy/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
       "name": "kotelchuck_2014_2020.csv",
       "path": "Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/kotelchuck_2014_2020.csv",
       "md5": "484cdce3e87f51a13ea8a105fd7cca1e",
       "size": 657203
-    },
-    {
-      "name": "temp",
-      "path": "Population Health/Reproductive Health/Prenatal Care Adequacy/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Population Health/Substance Abuse/Drug Overdose ER Visits/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
     },
     {
       "name": "va_hdct_vdh_2015_2021_drug_overdose_ed_visits.csv.xz",
@@ -300,106 +227,10 @@
       "size": 11300
     },
     {
-      "name": "temp",
-      "path": "Population Health/Substance Abuse/Drug Overdose ER Visits/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Nursing Homes/Inspection Deficiencies/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Nursing Homes/Inspection Deficiencies/data/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Nursing Homes/Inspection Deficiencies/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Nursing Homes/Staffing/Nurses/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Nursing Homes/Staffing/Nurses/data/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Nursing Homes/Staffing/Nurses/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Nursing Homes/Provider Info/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "hrs_ltcfocus_data _manual_042016_v2.pdf",
-      "path": "Health Care Services/Nursing Homes/Provider Info/docs/distribution/hrs_ltcfocus_data _manual_042016_v2.pdf",
-      "md5": "1badc81aeed90e5e9606ac4bec94f176",
-      "size": 896043
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Nursing Homes/Provider Info/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "ltcfocus_data_dictionary_2020.xlsx",
-      "path": "Health Care Services/Nursing Homes/Provider Info/docs/distribution/ltcfocus_data_dictionary_2020.xlsx",
-      "md5": "16ec30b999e71ff9688b00ca6cd6e985",
-      "size": 268537
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Urgent Care Centers/Service Access Scores/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "measure_info.json",
-      "path": "Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/measure_info.json",
-      "md5": "da47a2611e7ec524635c134550aa5274",
-      "size": 5949
-    },
-    {
       "name": "va_hdcttrbg_hifld_2021_access_scores_urgent.csv",
       "path": "Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_urgent.csv",
       "md5": "38bce4517eb492792351090678be2bf3",
       "size": 6508432
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Urgent Care Centers/Service Access Scores/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "measure_info.json",
-      "path": "Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/measure_info.json",
-      "md5": "614e29ce518fed578318e1d51e6a1331",
-      "size": 11186
     },
     {
       "name": "va_hdcttrbg_hifld_2021_access_scores_hospitals.csv",
@@ -412,18 +243,6 @@
       "path": "Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_hospitals_beds.csv",
       "md5": "a1be520fb993483f2588c745a52744b6",
       "size": 6450624
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Dentists/Service Catchment Scores/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
     },
     {
       "name": "va_hdcttrbg_webmd_2021_access_scores_dentists.csv",
@@ -506,30 +325,6 @@
       ]
     },
     {
-      "name": "measure_info.json",
-      "path": "Health Care Services/Dentists/Service Catchment Scores/data/distribution/measure_info.json",
-      "md5": "2a6068526949e7d8cf4cb498644c09f2",
-      "size": 5796
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Dentists/Service Catchment Scores/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Drug and Rehab/Service Catchment Scores/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "measure_info.json",
-      "path": "Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/measure_info.json",
-      "md5": "bce1f8d2f00fbbbe2c66f0bee338211a",
-      "size": 5957
-    },
-    {
       "name": "va_hdcttrbg_samhsa_2021_access_scores_substance.csv",
       "path": "Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbg_samhsa_2021_access_scores_substance.csv",
       "md5": "d598a00734a5fb6e447cf6d20d20688f",
@@ -584,24 +379,6 @@
       ]
     },
     {
-      "name": "temp",
-      "path": "Health Care Services/Drug and Rehab/Service Catchment Scores/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Mental Health/Service Access Scores/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "measure_info.json",
-      "path": "Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json",
-      "md5": "996937cb91f6034be83433fa9b6a6752",
-      "size": 6922
-    },
-    {
       "name": "va_hdcttrbg_samhsa_2021_access_scores_mental.csv",
       "path": "Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbg_samhsa_2021_access_scores_mental.csv",
       "md5": "fce82b79a1f6bd44d5c31606f33c07a5",
@@ -654,24 +431,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Mental Health/Service Access Scores/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/EMS/Service Catchment Scores/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "measure_info.json",
-      "path": "Health Care Services/EMS/Service Catchment Scores/data/distribution/measure_info.json",
-      "md5": "263a0bd2a3ef856e7e67d131c028606c",
-      "size": 5916
     },
     {
       "name": "va_hdcttrbg_hifld_2021_access_scores_ems.csv",
@@ -746,24 +505,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/EMS/Service Catchment Scores/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Physicians/Primary Care/Service Access Scores/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "measure_info.json",
-      "path": "Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/measure_info.json",
-      "md5": "4a66e978601d16b908ddbb7839c6281d",
-      "size": 7259
     },
     {
       "name": "va_hdcttrbg_webmd_2021_access_scores_primcare.csv",
@@ -872,24 +613,6 @@
       ]
     },
     {
-      "name": "temp",
-      "path": "Health Care Services/Physicians/Primary Care/Service Access Scores/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Physicians/Pediatric/Service Access Scores/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "measure_info.json",
-      "path": "Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/measure_info.json",
-      "md5": "11b6d0bda1d1eb39781cb251c075dcee",
-      "size": 5862
-    },
-    {
       "name": "va_hdcttrbg_webmd_2021_access_scores_pediatric.csv",
       "path": "Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/va_hdcttrbg_webmd_2021_access_scores_pediatric.csv",
       "md5": "85b393072f2dffb4b807b616d9a9dbfe",
@@ -942,18 +665,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Physicians/Pediatric/Service Access Scores/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Physicians/OB-GYN/Service Access Scores/code/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
     },
     {
       "name": "va_hdcttrbg_webmd_2021_access_scores_obgyn.csv",
@@ -1062,30 +773,20 @@
       ]
     },
     {
-      "name": "measure_info.json",
-      "path": "Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/measure_info.json",
-      "md5": "feae4fcb8c2e16a66aa2257056bb8ca2",
-      "size": 4728
-    },
-    {
-      "name": "temp",
-      "path": "Health Care Services/Physicians/OB-GYN/Service Access Scores/docs/distribution/temp",
-      "md5": "178164f81917b8e87073295a635588de",
-      "size": 12
-    },
-    {
       "name": "va_ct_schev_2016_2019_health_degrees_awarded.csv",
       "path": "Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ct_schev_2016_2019_health_degrees_awarded.csv",
       "md5": "c2c7e49855c387e5b0532653999b2ec0",
       "size": 178504
-    },
-    {
-      "name": "measure_info.json",
-      "path": "Health Care Services/Health Professionals/VA Graduates/data/distribution/measure_info.json",
-      "md5": "ea673a674c09d1581f0ff7d0c613aa7e",
-      "size": 4676
     }
   ],
+  "measure_generated": [],
+  "measure_to_check": [
+    "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_urgent.csv",
+    "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_hospitals.csv",
+    "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_hospitals_beds.csv",
+    "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ct_schev_2016_2019_health_degrees_awarded.csv"
+  ],
+  "measures_found": 11,
   "_references": {
     "liang17": {
       "id": "liang17",
