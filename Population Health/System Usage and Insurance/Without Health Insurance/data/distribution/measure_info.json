@@ -1,5 +1,5 @@
-[
-    {
+{
+    "hlth_ins_pct": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -19,7 +19,7 @@
         "statement": "",
         "type": "percent"
     },
-    {
+    "no_hlth_ins_pct": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -39,4 +39,4 @@
         "statement": "",
         "type": "percent"
     }
-]
+}

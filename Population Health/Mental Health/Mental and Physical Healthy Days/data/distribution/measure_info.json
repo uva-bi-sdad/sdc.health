@@ -1,5 +1,5 @@
-[
-    {
+{
+    "perc_poor_ment_hlth_days_14_and_over": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -19,7 +19,7 @@
         "statement": "",
         "type": "prevalence estimate"
     },
-    {
+    "perc_poor_phys_hlth_days_14_and_over": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -39,4 +39,4 @@
         "statement": "",
         "type": "prevalence estimate"
     }
-]
+}

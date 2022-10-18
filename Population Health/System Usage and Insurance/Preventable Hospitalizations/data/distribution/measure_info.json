@@ -1,5 +1,5 @@
-[
-    {
+{
+    "prevent_hosp_rate": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -19,4 +19,4 @@
         "statement": "",
         "type": "rate per 100K"
     }
-]
+}

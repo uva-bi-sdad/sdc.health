@@ -1,5 +1,5 @@
-[
-    {
+{
+    "adequate": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -19,7 +19,7 @@
         "statement": "",
         "type": "count"
     },
-    {
+    "adequate_pc": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -39,7 +39,7 @@
         "statement": "",
         "type": "proportion"
     },
-    {
+    "adequateplus": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -59,7 +59,7 @@
         "statement": "",
         "type": "count"
     },
-    {
+    "adequateplus_pc": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -79,7 +79,7 @@
         "statement": "",
         "type": "proportion"
     },
-    {
+    "inadequate": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -99,7 +99,7 @@
         "statement": "",
         "type": "count"
     },
-    {
+    "inadequate_pc": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -119,7 +119,7 @@
         "statement": "",
         "type": "proportion"
     },
-    {
+    "intermediate": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -139,7 +139,7 @@
         "statement": "",
         "type": "count"
     },
-    {
+    "intermediate_pc": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -159,7 +159,7 @@
         "statement": "",
         "type": "proportion"
     },
-    {
+    "total": {
         "category": "",
         "equity_category": "",
         "full_name": "",
@@ -179,4 +179,4 @@
         "statement": "",
         "type": "count"
     }
-]
+}

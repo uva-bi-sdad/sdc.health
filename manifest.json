@@ -1,8 +1,8 @@
 {
   "name": "sdc.health_dev",
   "measure_not_found": [
+    "/home/runner/work/sdc.health_dev/sdc.health_dev/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Population Health/Health Literacy/data/distribution/va_hdcttr_acs_2010_2019_post_hs_education.csv.xz",
-    "/home/runner/work/sdc.health_dev/sdc.health_dev/Population Health/Health Literacy/data/distribution/va_hdcttr_acs_2015_2019_post_hs_education.csv.xz",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Population Health/Health Literacy/data/distribution/ncr_cttr_acs_2010_2019_post_hs_education.csv.xz",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Population Health/Health Literacy/data/distribution/va_hccttr_sdad_2019_health_literacy_estimates.csv.xz",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_urgent.csv",
@@ -17,8 +17,8 @@
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/va_hdcttrbg_webmd_2021_access_scores_obgyn.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ct_schev_2016_2019_health_degrees_awarded.csv"
   ],
-  "count": 73,
-  "utc_audited": "2022-10-13 01:25:07",
+  "count": 81,
+  "utc_audited": "2022-10-18 22:52:02",
   "data": [
     {
       "name": "temp",
@@ -30,7 +30,14 @@
       "name": "va_ct_chr_2015_2021_preventable_hospitalizations.csv",
       "path": "Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/va_ct_chr_2015_2021_preventable_hospitalizations.csv",
       "md5": "091cca8e007c774c54a597b56fd1190c",
-      "size": 86790
+      "size": 86790,
+      "measure_info": []
+    },
+    {
+      "name": "measure_info.json",
+      "path": "Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/measure_info.json",
+      "md5": "1f83b985a442b1ddfad58302ae79973f",
+      "size": 563
     },
     {
       "name": "temp",
@@ -48,7 +55,14 @@
       "name": "va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz",
       "path": "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz",
       "md5": "9848772e50179691fb5367dbb10c6465",
-      "size": 202628
+      "size": 202628,
+      "measure_info": []
+    },
+    {
+      "name": "measure_info.json",
+      "path": "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/measure_info.json",
+      "md5": "090c7653eaaaee025d7cba007dc9b72f",
+      "size": 1114
     },
     {
       "name": "ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz",
@@ -78,7 +92,8 @@
       "name": "va_hdcttr_acs_2015_2019_post_hs_education.csv.xz",
       "path": "Population Health/Health Literacy/data/distribution/va_hdcttr_acs_2015_2019_post_hs_education.csv.xz",
       "md5": "a60503290e9bfe9735c013b1710b408d",
-      "size": 40804
+      "size": 40804,
+      "measure_info": []
     },
     {
       "name": "measure_info.json",
@@ -114,13 +129,21 @@
       "name": "dc_health_behavior_diet.ncr_trct_sdad_2015_2019_brfss_sae.csv.xz",
       "path": "Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/dc_health_behavior_diet.ncr_trct_sdad_2015_2019_brfss_sae.csv.xz",
       "md5": "6c961ff4e6f5e8ea32d43f1e94b509b2",
-      "size": 94520
+      "size": 94520,
+      "measure_info": []
+    },
+    {
+      "name": "measure_info.json",
+      "path": "Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/measure_info.json",
+      "md5": "4550f76d997aa85f8769f922a3d59fa1",
+      "size": 1236
     },
     {
       "name": "dc_health_behavior_diet.va_trcthd_sdad_2015_2019_brfss_sae.csv.xz",
       "path": "Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/dc_health_behavior_diet.va_trcthd_sdad_2015_2019_brfss_sae.csv.xz",
       "md5": "12541f8a6e55d3940f320bf4b0dfabf8",
-      "size": 171304
+      "size": 171304,
+      "measure_info": []
     },
     {
       "name": "temp",
@@ -138,7 +161,14 @@
       "name": "kotelchuck_2014_2020.csv",
       "path": "Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/kotelchuck_2014_2020.csv",
       "md5": "484cdce3e87f51a13ea8a105fd7cca1e",
-      "size": 657203
+      "size": 657203,
+      "measure_info": []
+    },
+    {
+      "name": "measure_info.json",
+      "path": "Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json",
+      "md5": "37ddc573f4e43f5dc98e1c885f9e1000",
+      "size": 4643
     },
     {
       "name": "temp",
@@ -156,7 +186,14 @@
       "name": "va_hdct_vdh_2015_2021_drug_overdose_ed_visits.csv.xz",
       "path": "Population Health/Substance Abuse/Drug Overdose ER Visits/data/distribution/va_hdct_vdh_2015_2021_drug_overdose_ed_visits.csv.xz",
       "md5": "836e3952e4ac1192019eb43bc103c255",
-      "size": 11300
+      "size": 11300,
+      "measure_info": []
+    },
+    {
+      "name": "measure_info.json",
+      "path": "Population Health/Substance Abuse/Drug Overdose ER Visits/data/distribution/measure_info.json",
+      "md5": "371e5681502891fde40da8b58aeb7d09",
+      "size": 561
     },
     {
       "name": "temp",
@@ -205,6 +242,12 @@
       "path": "Health Care Services/Nursing Homes/Provider Info/code/distribution/temp",
       "md5": "178164f81917b8e87073295a635588de",
       "size": 12
+    },
+    {
+      "name": "temp",
+      "path": "Health Care Services/Nursing Homes/Provider Info/data/distribution/temp",
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "size": 0
     },
     {
       "name": "hrs_ltcfocus_data _manual_042016_v2.pdf",
@@ -447,6 +490,12 @@
       "size": 12
     },
     {
+      "name": "temp",
+      "path": "Health Care Services/Health Professionals/VA Graduates/code/distribution/temp",
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "size": 0
+    },
+    {
       "name": "va_ct_schev_2016_2019_health_degrees_awarded.csv",
       "path": "Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ct_schev_2016_2019_health_degrees_awarded.csv",
       "md5": "c2c7e49855c387e5b0532653999b2ec0",
@@ -457,11 +506,14 @@
       "path": "Health Care Services/Health Professionals/VA Graduates/data/distribution/measure_info.json",
       "md5": "ea673a674c09d1581f0ff7d0c613aa7e",
       "size": 4676
+    },
+    {
+      "name": "temp",
+      "path": "Health Care Services/Health Professionals/VA Graduates/docs/distribution/temp",
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "size": 0
     }
   ],
-  "measure_generated": [],
-  "no_match_in_measures_info": [],
-  "measures_found": [],
   "_references": {
     "liang17": {
       "id": "liang17",
