@@ -6,6 +6,8 @@
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbg_samhsa_2021_access_scores_mental.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_urgent.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ct_schev_2016_2019_health_degrees_awarded.csv",
+    "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Health Professionals/VA Graduates/data/distribution/va_hd_schev_2016_2019_health_degrees_awarded.csv",
+    "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ahec_schev_2016_2019_health_degrees_awarded.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbg_samhsa_2021_access_scores_substance.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Dentists/Service Catchment Scores/data/distribution/va_hdcttrbg_webmd_2021_access_scores_dentists.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_ems.csv",
@@ -17,8 +19,8 @@
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Population Health/Health Literacy/data/distribution/va_hccttr_sdad_2019_health_literacy_estimates.csv.xz",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz"
   ],
-  "count": 81,
-  "utc_audited": "2022-11-08 19:44:46",
+  "count": 83,
+  "utc_audited": "2022-11-21 20:51:02",
   "data": [
     {
       "name": "measure_info.json",
@@ -109,6 +111,18 @@
       "path": "Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ct_schev_2016_2019_health_degrees_awarded.csv",
       "md5": "c2c7e49855c387e5b0532653999b2ec0",
       "size": 178504
+    },
+    {
+      "name": "va_hd_schev_2016_2019_health_degrees_awarded.csv",
+      "path": "Health Care Services/Health Professionals/VA Graduates/data/distribution/va_hd_schev_2016_2019_health_degrees_awarded.csv",
+      "md5": "52afa55ee984bb5f675b7e58f343cb7a",
+      "size": 45048
+    },
+    {
+      "name": "va_ahec_schev_2016_2019_health_degrees_awarded.csv",
+      "path": "Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ahec_schev_2016_2019_health_degrees_awarded.csv",
+      "md5": "565546839476d4ceb24d0523135d4631",
+      "size": 9575
     },
     {
       "name": "temp",
