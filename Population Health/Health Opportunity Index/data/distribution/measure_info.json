@@ -207,7 +207,7 @@
       }
     ]
   },
-    "consumer_opportunity_profile": {
+    "consumer_opportunity_indicator": {
     "category": "Health Opportunity Index",
     "type": "index",
     "short_name": "Consumer opportunity profile",
@@ -223,7 +223,7 @@
       }
     ]
   },
-  "affordability_index": {
+  "affordability_indicator": {
     "category": "Health Opportunity Index",
     "type": "index",
     "short_name": "Affordability indicator",
@@ -239,7 +239,7 @@
       }
     ]
   },
-    "air_quality_index": {
+    "air_quality_indicator": {
     "category": "Health Opportunity Index",
     "type": "index",
     "short_name": "Air quality indicator",
@@ -255,11 +255,11 @@
       }
     ]
   },
-  "community_environmental_profile": {
+  "community_environment_indicator": {
     "category": "Health Opportunity Index",
     "type": "index",
     "short_name": "Community environmental profile",
-    "long_name": "Community environmentalprofile",
+    "long_name": "Community environmental profile",
     "short_description": "A measure of the natural, built and social environment of a community.",
     "long_description": "A measure of the natural, built and social environment of a community. It includes the air quality indicator, the population churning indicator, the population density indicator, and the walkability indicator.",
     "statement": "The community environmental profile in {features.name} is {value}.",
@@ -271,7 +271,7 @@
       }
     ]
   },
-  "access_to_care_index": {
+  "access_care_indicator": {
     "category": "Health Opportunity Index",
     "type": "index",
     "short_name": "Access to care indicator",
