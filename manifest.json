@@ -39,7 +39,6 @@
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_primcare.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/dmv_cttrbg_webmd_2021_acccess_scores_primcare.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/ncr_bgtrct_gmap_2022_access_scores_urgent_care_centers.csv",
-    "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_urgent.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/ncr_bgtrct_2022_access_scores_hospitals.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/ncr_bgtrct_2021_access_scores_hospitals.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Hospitals and Emergency Rooms/Service Access Scores/data/distribution/ncr_bgtrct_2019_access_scores_hospitals.csv",
@@ -63,8 +62,8 @@
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ahec_schev_2016_2019_health_degrees_awarded.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ct_schev_2016_2019_health_degrees_awarded.csv"
   ],
-  "count": 193,
-  "utc_audited": "2023-04-03 22:56:14",
+  "count": 192,
+  "utc_audited": "2023-04-04 19:55:36",
   "data": [
     {
       "name": "ncr_trct_sdad_2015_2019_brfss_sae.csv.xz",
@@ -695,12 +694,6 @@
       "path": "Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/ncr_bgtrct_gmap_2022_access_scores_urgent_care_centers.csv",
       "md5": "a69d40a9f509336165699947c9c3d0c5",
       "size": 7764683
-    },
-    {
-      "name": "va_hdcttrbg_hifld_2021_access_scores_urgent.csv",
-      "path": "Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/va_hdcttrbg_hifld_2021_access_scores_urgent.csv",
-      "md5": "6fe4c2a03a3cf082162365a883eef4a8",
-      "size": 7339808
     },
     {
       "name": "measure_info.json",
