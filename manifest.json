@@ -62,8 +62,8 @@
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ahec_schev_2016_2019_health_degrees_awarded.csv",
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ct_schev_2016_2019_health_degrees_awarded.csv"
   ],
-  "count": 192,
-  "utc_audited": "2023-04-04 19:55:36",
+  "count": 193,
+  "utc_audited": "2023-04-04 21:31:40",
   "data": [
     {
       "name": "ncr_trct_sdad_2015_2019_brfss_sae.csv.xz",
@@ -694,6 +694,12 @@
       "path": "Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/ncr_bgtrct_gmap_2022_access_scores_urgent_care_centers.csv",
       "md5": "a69d40a9f509336165699947c9c3d0c5",
       "size": 7764683
+    },
+    {
+      "name": "urgent_care_points_2022.geojson",
+      "path": "Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/urgent_care_points_2022.geojson",
+      "md5": "40c901f5fe67710569270cc54c1bcf7d",
+      "size": 243690
     },
     {
       "name": "measure_info.json",
