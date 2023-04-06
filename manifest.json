@@ -63,7 +63,7 @@
     "/home/runner/work/sdc.health_dev/sdc.health_dev/Health Care Services/Health Professionals/VA Graduates/data/distribution/va_ct_schev_2016_2019_health_degrees_awarded.csv"
   ],
   "count": 193,
-  "utc_audited": "2023-04-04 21:31:40",
+  "utc_audited": "2023-04-04 21:44:31",
   "data": [
     {
       "name": "ncr_trct_sdad_2015_2019_brfss_sae.csv.xz",
@@ -704,8 +704,8 @@
     {
       "name": "measure_info.json",
       "path": "Health Care Services/Urgent Care Centers/Service Access Scores/data/distribution/measure_info.json",
-      "md5": "d52a5b7a7e5c1b5d5ad86e32775467d4",
-      "size": 7062
+      "md5": "b41a9326484ad109f75a052d8511d6fd",
+      "size": 7222
     },
     {
       "name": "temp",
