@@ -53,6 +53,9 @@ airqual_2022_sel <- unique(airqual_2022_sel)
 
 airqual_2022_sel <- airqual_2022_sel[, .(geoid, measure, value, year, moe)]
 
+# invert values
+airqual_2022_sel$value <- abs(airqual_2022_sel$value - 6)
+
 
 # combine
 airqual_sel  <- rbindlist(list(airqual_2017_sel, airqual_2022_sel))
