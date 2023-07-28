@@ -56,9 +56,6 @@ care_2022_sel <- care_2022_sel[, .(geoid, measure, value, year, moe)]
 # invert values
 care_2022_sel$value <- abs(care_2022_sel$value - 6)
 
-# invert values
-care_2022_sel$value <- abs(care_2022_sel$value - 6)
-
 
 # combine
 care_sel  <- rbindlist(list(care_2017_sel, care_2022_sel))
