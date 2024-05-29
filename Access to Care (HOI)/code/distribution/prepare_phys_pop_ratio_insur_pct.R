@@ -5,11 +5,10 @@ library(readr)
 ## primary care physicians with tract
 phys_tract <- fread("Access to Care (HOI)/data/working/va_2017_2021_primary_care_phys_by_tract.csv")
 phys_tract <- phys_tract[!is.na(Tract_FIPS)]
-phys_per_tract[, geoid := as.character(geoid)]
 
 ## distances between tract centroids
 if (exists("tract_distances")) rm(tract_distances)
-for (i in 1:5) {
+for (i in 1:6) {
   trdist <- readr::read_csv(paste0("../tract_distance_matrix/data/tract2tract_dist_time_2020/tract2tract_dist_time_", i,".zip"))
   if (!exists("tract_distances")) tract_distances <- trdist else tract_distances <- rbindlist(list(tract_distances, trdist))
 }
@@ -27,6 +26,7 @@ pop_insur_tract <- pop_insur_tract[, .(geoid = as.character(geoid), year, tot_po
 ## physician count per tract 
 phys_per_tract <- phys_tract[, .(count = .N), by=.(Tract_FIPS, Year)][order(Tract_FIPS, Year)]
 phys_per_tract <- phys_per_tract[, .(geoid = Tract_FIPS, year = Year, phys_cnt = count)]
+phys_per_tract[, geoid := as.character(geoid)]
 
 ## all tracts that are within 30 miles of other tracts
 tract_distances_lt30mi <- tract_distances[dist_meters <= 48280.3, .(geoid = tract_orig, geoid30 = tract_dest)]
@@ -48,8 +48,8 @@ fwrite(phys_tract_30mi, "Access to Care (HOI)/data/distribution/va_cnt_physician
 
 # Join Physicians Within 30 Miles per Tract to Population and Uninsured Count
 ## just 2020 and 2021 until tract distances is updated
-pop_insur_tract_20_21 <- pop_insur_tract[year %in% c(2020, 2021)]
-phy_pop_insur_tract <- merge(pop_insur_tract_20_21, phys_tract_30mi, by = c("geoid", "year"), all.x = T)
+## pop_insur_tract_20_21 <- pop_insur_tract[year %in% c(2020, 2021)]
+phy_pop_insur_tract <- merge(pop_insur_tract, phys_tract_30mi, by = c("geoid", "year"), all.x = T)
  # phy_pop_insur_tract <- phy_pop_insur_tract[, phys_cnt := as.double(phys_cnt)]
  # phy_pop_insur_tract[is.na(phys_cnt), phys_cnt := 0.0001]
 
@@ -71,7 +71,7 @@ fwrite(phy_pop_insur_tract, "Access to Care (HOI)/data/working/va_tr_2020_2021_c
 
 ## write final data clearinghouse file
 care_access_tracts <- phy_pop_insur_tract[, .(geoid, year, measure = "access_care_indicator", value = access_index,  moe = NA)]
-write_csv(care_access_tracts, xzfile("Access to Care (HOI)/data/distribution/va_tr_2020_2021_care_access_indicator.csv.xz"))
+write_csv(care_access_tracts, xzfile("Access to Care (HOI)/data/distribution/va_tr_2017_2021_care_access_indicator.csv.xz"))
 
 
 
