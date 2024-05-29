@@ -69,10 +69,16 @@ phy_pop_insur_tract[, access_index := sum_z * -1]
 ## write calculation file
 fwrite(phy_pop_insur_tract, "Access to Care (HOI)/data/working/va_tr_2020_2021_care_access_calculations.csv")
 
-## write final data clearinghouse file
+## transform to final data clearinghouse format
 care_access_tracts <- phy_pop_insur_tract[, .(geoid, year, measure = "access_care_indicator", value = access_index,  moe = NA)]
-write_csv(care_access_tracts, xzfile("Access to Care (HOI)/data/distribution/va_tr_2017_2021_care_access_indicator.csv.xz"))
 
+# standardize to 2020 geographies
+## get the tract conversion function
+source("https://github.com/uva-bi-sdad/sdc.geographies/raw/main/utils/distribution/tract_conversions.R")
+## convert
+stnd <- standardize_all(care_access_tracts)
 
+# save standardized file
+write_csv(stnd, file = xzfile("Access to Care (HOI)/data/distribution/va_tr_2017_2021_care_access_indicator_std.csv.xz"))
 
 
