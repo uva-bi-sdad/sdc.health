@@ -1,10 +1,12 @@
 library(data.table)
 library(readr)
 
-# Data
+# Prepare Data
 ## primary care physicians with tract
 phys_tract <- fread("Access to Care (HOI)/data/working/va_2017_2021_primary_care_phys_by_tract.csv")
 phys_tract <- phys_tract[!is.na(Tract_FIPS)]
+phys_per_tract[, geoid := as.character(geoid)]
+
 ## distances between tract centroids
 if (exists("tract_distances")) rm(tract_distances)
 for (i in 1:5) {
@@ -12,52 +14,64 @@ for (i in 1:5) {
   if (!exists("tract_distances")) tract_distances <- trdist else tract_distances <- rbindlist(list(tract_distances, trdist))
 }
 tract_distances <- tract_distances[!is.na(tract_dest)]
-
-# Physician count per tract 
-phys_per_tract <- phys_tract[, .(count = .N), by=.(Tract_FIPS, Year)][order(Tract_FIPS, Year)]
-phys_per_tract <- phys_per_tract[, .(geoid = Tract_FIPS, year = Year, phys_cnt = count)]
-
 tract_distances[, tract_orig := as.character(tract_orig)]
 tract_distances[, tract_dest := as.character(tract_dest)]
 
-# Physicians within 30mi of tract centroid
+## population and count of non-insured by tract 
+pop_insur_tract <- fread("Access to Care (HOI)/data/working/va_tr_2017_2021_tot_pop_tot_insur.csv")
+pop_insur_tract <- dcast(pop_insur_tract, geoid+year ~ measure, value.var = "value")
+pop_insur_tract <- pop_insur_tract[, .(geoid = as.character(geoid), year, tot_pop_cnt = B01001_001, no_ins_cnt = B27010_033 + B27010_050)]
 
+
+# Create Physician Count Within 30mi of Tract Centroid
+## physician count per tract 
+phys_per_tract <- phys_tract[, .(count = .N), by=.(Tract_FIPS, Year)][order(Tract_FIPS, Year)]
+phys_per_tract <- phys_per_tract[, .(geoid = Tract_FIPS, year = Year, phys_cnt = count)]
+
+## all tracts that are within 30 miles of other tracts
 tract_distances_lt30mi <- tract_distances[dist_meters <= 48280.3, .(geoid = tract_orig, geoid30 = tract_dest)]
+## add row for origin and destination being same tract (removed from original dataset)
 self_tract <- data.table::data.table(geoid = unique(tract_distances_lt30mi$geoid), geoid30 = unique(tract_distances_lt30mi$geoid))
 tract_distances_lt30mi <- rbindlist(list(tract_distances_lt30mi, self_tract))
 
-phys_per_tract[, geoid := as.character(geoid)]
-
+## join physician counts per tract with tracts within 30 miles
 tract_distances_lt30mi_phys <- merge(tract_distances_lt30mi, phys_per_tract, by.x = "geoid30", by.y = "geoid", allow.cartesian = T)
 tract_distances_lt30mi_phys <- tract_distances_lt30mi_phys[, .(geoid, geoid30, year, phys_cnt)]
 
-phys_tract_30mi <- unique(tract_distances_lt30mi_phys[, .(geoid, year, phys_cnt)][, phys_30_cnt := sum(phys_cnt), by = c("geoid", "year")])
+## for each tract, sum up physician count for all tracts within 30 miles
+phys_tract_30mi <- tract_distances_lt30mi_phys[, .(geoid, year, phys_cnt)][, phys_30_cnt := sum(phys_cnt), by = c("geoid", "year")]
+phys_tract_30mi <- unique(phys_tract_30mi[, .(geoid, year, phys_30_cnt)])
+
+## write file
 fwrite(phys_tract_30mi, "Access to Care (HOI)/data/distribution/va_cnt_physician_lt_30mi_from_tract.csv")
 
 
+# Join Physicians Within 30 Miles per Tract to Population and Uninsured Count
+## just 2020 and 2021 until tract distances is updated
+pop_insur_tract_20_21 <- pop_insur_tract[year %in% c(2020, 2021)]
+phy_pop_insur_tract <- merge(pop_insur_tract_20_21, phys_tract_30mi, by = c("geoid", "year"), all.x = T)
+ # phy_pop_insur_tract <- phy_pop_insur_tract[, phys_cnt := as.double(phys_cnt)]
+ # phy_pop_insur_tract[is.na(phys_cnt), phys_cnt := 0.0001]
 
-# tract no insurance 
-pop_insur_tract <- fread("Access to Care (HOI)/data/working/va_tr_2017_2021_tot_pop_tot_insur.csv")
-
-
-pop_insur_tract_wide <- dcast(pop_insur_tract, geoid+year ~ measure, value.var = "value")
-pop_insur_tract_wide <- pop_insur_tract_wide[, .(geoid = as.character(geoid), year, tot_pop_cnt = B01001_001, no_ins_cnt = B27010_033 + B27010_050)]
-
-phy_pop_insur_tract <- merge(pop_insur_tract_wide, phys_tract_30mi, by = c("geoid", "year"), all.x = T)
-phy_pop_insur_tract <- phy_pop_insur_tract[, phys_cnt := as.double(phys_cnt)]
-phy_pop_insur_tract[is.na(phys_cnt), phys_cnt := 0.0001]
-
-
-phy_pop_insur_tract[, pop_phys := tot_pop_cnt/phys_cnt]
+# Calculate Index
+## calculate z-scores of the population-to-physician ratio
+phy_pop_insur_tract[, pop_phys := tot_pop_cnt/phys_30_cnt]
 phy_pop_insur_tract[, pop_phys_z := scale(pop_phys)]
-phy_pop_insur_tract[, pop_phys_z := scale(pop_phys)]
+## calculate z-score of uninsured population
 phy_pop_insur_tract[, no_ins_pct := (no_ins_cnt/tot_pop_cnt) * 100]
 phy_pop_insur_tract[, no_ins_pct_z := scale(no_ins_pct)]
+## sum up z-scores (the population to provider z score and the uninsured population z score)
+## into a composite, and calculate z score of composite
 phy_pop_insur_tract[, sum_z := scale(pop_phys_z + no_ins_pct_z)]
-phy_pop_insur_tract[, indx := sum_z * -1]
+## reverse z-scores
+phy_pop_insur_tract[, access_index := sum_z * -1]
 
+## write calculation file
+fwrite(phy_pop_insur_tract, "Access to Care (HOI)/data/working/va_tr_2020_2021_care_access_calculations.csv")
 
-
+## write final data clearinghouse file
+care_access_tracts <- phy_pop_insur_tract[, .(geoid, year, measure = "access_care_indicator", value = access_index,  moe = NA)]
+write_csv(care_access_tracts, xzfile("Access to Care (HOI)/data/distribution/va_tr_2020_2021_care_access_indicator.csv.xz"))
 
 
 
