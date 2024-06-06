@@ -84,7 +84,7 @@ HOI_data_2015 = indicators_2015 %>% select(geoid) %>% mutate(year = 2015) %>% mu
 percentiles <- quantile(HOI_data_2015$value, probs = c(0.0, 0.2, 0.4, 0.6, 0.8, 1.0))
 HOI_data_2015_quintile = HOI_data_2015 %>% mutate(value= as.numeric(cut(HOI_data_2015$value, breaks = percentiles, labels = FALSE, include.lowest = TRUE)))
 
-setwd("health_opportunity_indicators_new")
+setwd("hoi_data_2024_06_06")
 write.csv(HOI_data_2015, "health_opportunity_indicator_2015.csv")
 write.csv(HOI_data_2015_quintile, "health_opportunity_indicator_2015_quintiles.csv")
 setwd("/Users/michaelvaden/Downloads")
@@ -113,7 +113,7 @@ HOI_data_2016 = indicators_2016 %>% select(geoid) %>% mutate(year = 2016) %>% mu
 percentiles <- quantile(HOI_data_2016$value, probs = c(0.0, 0.2, 0.4, 0.6, 0.8, 1.0))
 HOI_data_2016_quintile = HOI_data_2016 %>% mutate(value= as.numeric(cut(HOI_data_2016$value, breaks = percentiles, labels = FALSE, include.lowest = TRUE)))
 
-setwd("health_opportunity_indicators_new")
+setwd("hoi_data_2024_06_06")
 write.csv(HOI_data_2016, "health_opportunity_indicator_2016.csv")
 write.csv(HOI_data_2016_quintile, "health_opportunity_indicator_2016_quintiles.csv")
 setwd("/Users/michaelvaden/Downloads")
@@ -142,7 +142,7 @@ HOI_data_2017 = indicators_2017 %>% select(geoid) %>% mutate(year = 2017) %>% mu
 percentiles <- quantile(HOI_data_2017$value, probs = c(0.0, 0.2, 0.4, 0.6, 0.8, 1.0))
 HOI_data_2017_quintile = HOI_data_2017 %>% mutate(value= as.numeric(cut(HOI_data_2017$value, breaks = percentiles, labels = FALSE, include.lowest = TRUE)))
 
-setwd("health_opportunity_indicators_new")
+setwd("hoi_data_2024_06_06")
 write.csv(HOI_data_2017, "health_opportunity_indicator_2017.csv")
 write.csv(HOI_data_2017_quintile, "health_opportunity_indicator_2017_quintiles.csv")
 setwd("/Users/michaelvaden/Downloads")
@@ -170,7 +170,7 @@ HOI_data_2018 = indicators_2018 %>% select(geoid) %>% mutate(year = 2018) %>% mu
 percentiles <- quantile(HOI_data_2018$value, probs = c(0.0, 0.2, 0.4, 0.6, 0.8, 1.0))
 HOI_data_2018_quintile = HOI_data_2018 %>% mutate(value= as.numeric(cut(HOI_data_2018$value, breaks = percentiles, labels = FALSE, include.lowest = TRUE)))
 
-setwd("health_opportunity_indicators_new")
+setwd("hoi_data_2024_06_06")
 write.csv(HOI_data_2018, "health_opportunity_indicator_2018.csv")
 write.csv(HOI_data_2018_quintile, "health_opportunity_indicator_2018_quintiles.csv")
 setwd("/Users/michaelvaden/Downloads")
@@ -198,7 +198,7 @@ HOI_data_2019 = indicators_2019 %>% select(geoid) %>% mutate(year = 2019) %>% mu
 percentiles <- quantile(HOI_data_2019$value, probs = c(0.0, 0.2, 0.4, 0.6, 0.8, 1.0))
 HOI_data_2019_quintile = HOI_data_2019 %>% mutate(value= as.numeric(cut(HOI_data_2019$value, breaks = percentiles, labels = FALSE, include.lowest = TRUE)))
 
-setwd("health_opportunity_indicators_new")
+setwd("hoi_data_2024_06_06")
 write.csv(HOI_data_2019, "health_opportunity_indicator_2019.csv")
 write.csv(HOI_data_2019_quintile, "health_opportunity_indicator_2019_quintiles.csv")
 setwd("/Users/michaelvaden/Downloads")
@@ -226,7 +226,7 @@ HOI_data_2021 = indicators_2021 %>% select(geoid) %>% mutate(year = 2021) %>% mu
 percentiles <- quantile(HOI_data_2021$value, probs = c(0.0, 0.2, 0.4, 0.6, 0.8, 1.0))
 HOI_data_2021_quintile = HOI_data_2021 %>% mutate(value= as.numeric(cut(HOI_data_2021$value, breaks = percentiles, labels = FALSE, include.lowest = TRUE)))
 
-setwd("health_opportunity_indicators_new")
+setwd("hoi_data_2024_06_06")
 write.csv(HOI_data_2021, "health_opportunity_indicator_2021.csv")
 write.csv(HOI_data_2021_quintile, "health_opportunity_indicator_2021_quintiles.csv")
 setwd("/Users/michaelvaden/Downloads")
