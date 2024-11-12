@@ -7,10 +7,10 @@
         "data_type": "numeric",
         "equity_category": "Availability",
         "layer": "",
-        "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+        "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data were collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computer using Open Source Routing Machine (looking at roads for 2021) Geographies: Block group (12), Census tract (11), County (5), Civic Associations (51013_ca)",
         "long_name": "Emergency medical services availability by median drive time to the ten closest facilities in minutes",
         "measure_type": "count",
-        "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+        "short_description": "",
         "short_name": "Emergency medical services availability (drive time)",
         "sources": [
             {
